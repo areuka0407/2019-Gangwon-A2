@@ -1,0 +1,341 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>부산국제모터쇼</title>
+    <script src="js/jquery-3.4.1.min.js"></script>
+    <link rel="stylesheet" href="bootstrap-4.4.1-dist/css/bootstrap.min.css">
+    <script src="bootstrap-4.4.1-dist/js/bootstrap.min.js"></script>
+    <link rel="stylesheet" href="fontawesome-free-5.1.0-web/css/all.css">
+    <script src="fontawesome-free-5.1.0-web/js/all.js"></script>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    <!-- 헤더 영역 -->
+    <div class="top">
+        <div class="container d-flex justify-content-between">
+            <p>
+                <small><a href="#">로그인</a> 한 뒤 모든 서비스를 이용해 보세요!</small>
+                <small class="ml-2 text-muted">계정이 없으신가요? <a href="#">회원가입</a></small>
+            </p>
+            <div class="icons">
+                <i class="fa-lg fab fa-facebook-f"></i>
+                <i class="fa-lg ml-3 fab fa-twitter"></i>
+                <i class="fa-lg ml-3 fab fa-google-plus-g"></i>
+            </div>
+        </div>
+    </div>
+    <div class="header">
+        <div class="container d-flex align-items-center">
+            <a href="index.html" class="logo segoe">
+                Logo
+            </a>
+            <div class="nav">
+                <div class="item">
+                    <a href="#">부산국제모터쇼</a>
+                    <div class="sub-nav">
+                        <a href="#" class="sub-item">행사소개</a>
+                        <a href="#" class="sub-item">모터쇼 연혁</a>
+                    </div>
+                </div>
+                <div class="item"><a href="#">예매하기</a></div>
+                <div class="item">
+                    <a href="#">관람안내</a>
+                    <div class="sub-nav">
+                        <a href="#" class="sub-item">부스배치도</a>
+                    </div>
+                </div>
+                <div class="item">
+                    <a href="#">관리자</a>
+                    <div class="sub-nav">
+                        <a href="#" class="sub-item">사이트관리자</a>
+                        <a href="#" class="sub-item">부스신청</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- 비주얼 영역 -->
+    <div id="visual">
+        <div class="images">
+            <div class="img" style="background-image: url(images/motor_9.jpg)"></div>
+            <div class="img" style="background-image: url(images/motor_22.jpg)"></div>
+            <div class="img" style="background-image: url(images/motor_5.jpg)"></div>
+        </div>
+        <div class="contents">
+            <h1>넥스트 모빌리티, 축제가 되다</h1>
+            <h5 class="mt-3">2020.5.29(금) ~ 6.7(일) 부산 BEXCO 전관</h5>
+            <a class="button" href="#bimos-2020">자세히 보기</a>
+        </div>
+    </div>
+
+    <!-- BIMOS 2020 -->
+    <div id="bimos-2020">
+        <div class="container padding">
+            <div class="row">
+                <div class="col-md-6">
+                    <div class="section-title">
+                        <h5>BIMOS 2020</h5>
+                        <h1 description="(지속가능하고 지능화된 이동혁명)">Sustainable / Connected / Mobility</h1>
+                    </div>
+                    <div class="contents">
+                        <p>지속가능한 에너지를 통한 친환경적 진화</p>
+                        <p>무한한 연결이 가능한 지능화된 자동차</p>
+                        <p>기존 이동수단을 뛰어넘는 모빌리티의 새로운비전</p>
+                    </div>
+                </div>
+                <div class="col-md-6">
+                    <div class="split-image" style="height: 400px;">
+                        <div style="background-image: url(images/bimos_2020.jpg)"></div>
+                        <div style="background-image: url(images/bimos_2020.jpg)"></div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- SPONSORSHIP -->
+    <div id="sponsor">
+        <div class="container padding">
+            <input type="radio" id="step-0" name="sponsor-move" hidden checked>
+            <input type="radio" id="step-1" name="sponsor-move" hidden>
+            <input type="radio" id="step-2" name="sponsor-move" hidden>
+            <input type="radio" id="step-3" name="sponsor-move" hidden>
+            <input type="radio" id="step-4" name="sponsor-move" hidden>
+            <input type="radio" id="step-5" name="sponsor-move" hidden>
+            <input type="radio" id="step-6" name="sponsor-move" hidden>
+            <input type="radio" id="step-7" name="sponsor-move" hidden>
+            <div class="section-title center position-relative">
+                <h5>SPONSORSHIP</h5>
+                <div class="labels">
+                    <div>
+                        <label disabled><i class="fa-lg fa fa-chevron-left"></i></label>
+                        <label for="step-1"><i class="fa-lg fa fa-chevron-right"></i></label>
+                    </div>
+                    <div>
+                        <label for="step-0"><i class="fa-lg fa fa-chevron-left"></i></label>
+                        <label for="step-2"><i class="fa-lg fa fa-chevron-right"></i></label>
+                    </div>
+                    <div>
+                        <label for="step-1"><i class="fa-lg fa fa-chevron-left"></i></label>
+                        <label for="step-3"><i class="fa-lg fa fa-chevron-right"></i></label>
+                    </div>
+                    <div>
+                        <label for="step-2"><i class="fa-lg fa fa-chevron-left"></i></label>
+                        <label for="step-4"><i class="fa-lg fa fa-chevron-right"></i></label>
+                    </div>
+                    <div>
+                        <label for="step-3"><i class="fa-lg fa fa-chevron-left"></i></label>
+                        <label for="step-5"><i class="fa-lg fa fa-chevron-right"></i></label>
+                    </div>
+                    <div>
+                        <label for="step-4"><i class="fa-lg fa fa-chevron-left"></i></label>
+                        <label for="step-6"><i class="fa-lg fa fa-chevron-right"></i></label>
+                    </div>
+                    <div>
+                        <label for="step-5"><i class="fa-lg fa fa-chevron-left"></i></label>
+                        <label for="step-7"><i class="fa-lg fa fa-chevron-right"></i></label>
+                    </div>
+                    <div>
+                        <label for="step-6"><i class="fa-lg fa fa-chevron-left"></i></label>
+                        <label disabled><i class="fa-lg fa fa-chevron-right"></i></label>
+                    </div>
+                </div>
+            </div>
+            <div class="contents">
+                <div>
+                    <img src="images/sponsor_1.jpg" alt="sponsor">
+                    <img src="images/sponsor_2.jpg" alt="sponsor">
+                    <img src="images/sponsor_3.jpg" alt="sponsor">
+                    <img src="images/sponsor_4.jpg" alt="sponsor">
+                    <img src="images/sponsor_5.jpg" alt="sponsor">
+                    <img src="images/sponsor_6.jpg" alt="sponsor">
+                    <img src="images/sponsor_7.jpg" alt="sponsor">
+                    <img src="images/sponsor_8.jpg" alt="sponsor">
+                    <img src="images/sponsor_9.jpg" alt="sponsor">
+                    <img src="images/sponsor_10.jpg" alt="sponsor">
+                    <img src="images/sponsor_11.jpg" alt="sponsor">
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- BIMOS PHOTO GALLERY -->
+    <div id="gallery">
+        <div class="container padding">
+            <div class="section-title">
+                <h5>PHOTO GALLERY</h5>
+            </div>
+            <div class="row">
+                <div class="item col-md-3">
+                    <input type="checkbox" id="gallery-item-1" hidden>
+                    <div class="image" style="background-image: url(images/gallery/AMG_GLA_45.jpg)">
+                        <div>
+                            <h1>AMG GLA 45</h1>
+                            <h5>MERCEDES-BENZ</h5>
+                            <p>차제형식 : 5도어 SUV / 굴림방식 : AWD</p>
+                            <p>엔진 : I4 1991 / 변속시 : 7DC</p>
+                            <p>출력 : 381/6000 / 토크 : 48.4/2250~5000</p>
+                            <label for="gallery-item-1"><i class="fa fa-search"></i></label>
+                        </div>
+                    </div>
+                    <div class="name">AMG GLA 45</div>
+                    <label for="gallery-item-1" class="detail">
+                        <div>
+                            <img src="images/gallery/AMG_GLA_45.jpg" alt="gallery-image">
+                            <span class="close">×</span>
+                        </div>
+                    </label>
+                </div>
+                <div class="item col-md-3">
+                    <input type="checkbox" id="gallery-item-1" hidden>
+                    <div class="image" style="background-image: url(images/gallery/AMG_GT.jpg)">
+                        <div>
+                            <h1>AMG GT</h1>
+                            <h5>MERCEDES-BENZ</h5>
+                            <p>차제형식 : 2도어 쿠페 / 굴림방식 : RWD</p>
+                            <p>엔진 : V8 3982 / 변속시 : 7DC</p>
+                            <p>출력 : 462/6000 / 토크 : 66.3/1750~4750</p>
+                            <label for="gallery-item-1"><i class="fa fa-search"></i></label>
+                        </div>
+                    </div>
+                    <div class="name">AMG GT</div>
+                    <label for="gallery-item-1" class="detail">
+                        <div>
+                            <img src="images/gallery/AMG_GT.jpg" alt="gallery-image">
+                            <span class="close">×</span>
+                        </div>
+                    </label>
+                </div>
+                <div class="item col-md-3">
+                    <input type="checkbox" id="gallery-item-1" hidden>
+                    <div class="image" style="background-image: url(images/gallery/Boxster.jpg)">
+                        <div>
+                            <h1>Boxster</h1>
+                            <h5>PORSCHE</h5>
+                            <p>차제형식 : 2도어 로드스터 / 굴림방식 : RWD</p>
+                            <p>엔진 : F6 3436 / 변속시 : 7PDK</p>
+                            <p>출력 : 315/6700 / 토크 : 36.7/4500~5800</p>
+                            <label for="gallery-item-1"><i class="fa fa-search"></i></label>
+                        </div>
+                    </div>
+                    <div class="name">Boxster</div>
+                    <label for="gallery-item-1" class="detail">
+                        <div>
+                            <img src="images/gallery/Boxster.jpg" alt="gallery-image">
+                            <span class="close">×</span>
+                        </div>
+                    </label>
+                </div>
+                <div class="item col-md-3">
+                    <input type="checkbox" id="gallery-item-1" hidden>
+                    <div class="image" style="background-image: url(images/gallery/California.jpg)">
+                        <div>
+                            <h1>California</h1>
+                            <h5>FERRARI</h5>
+                            <p>차제형식 : 2도어 컨버터블 / 굴림방식 : RWD</p>
+                            <p>엔진 : V12 4300 / 변속시 : 7DC</p>
+                            <p>출력 : 490/7750 / 토크 : 51.5/5000</p>
+                            <label for="gallery-item-1"><i class="fa fa-search"></i></label>
+                        </div>
+                    </div>
+                    <div class="name">California</div>
+                    <label for="gallery-item-1" class="detail">
+                        <div>
+                            <img src="images/gallery/California.jpg" alt="gallery-image">
+                            <span class="close">×</span>
+                        </div>
+                    </label>
+                </div>
+                <div class="item col-md-3">
+                    <input type="checkbox" id="gallery-item-1" hidden>
+                    <div class="image" style="background-image: url(images/gallery/Continental_Flying_Spur.jpg)">
+                        <div>
+                            <h1>Continental Flying Spur</h1>
+                            <h5>BENTLEY</h5>
+                            <p>차제형식 : 4도어 세단 / 굴림방식 : AWD</p>
+                            <p>엔진 : V8 3993 / 변속시 : 8A</p>
+                            <p>출력 : 528/6000 / 토크 : 69.3/1700</p>
+                            <label for="gallery-item-1"><i class="fa fa-search"></i></label>
+                        </div>
+                    </div>
+                    <div class="name">Continental Flying Spur</div>
+                    <label for="gallery-item-1" class="detail">
+                        <div>
+                            <img src="images/gallery/Continental_Flying_Spur.jpg" alt="gallery-image">
+                            <span class="close">×</span>
+                        </div>
+                    </label>
+                </div>
+                <div class="item col-md-3">
+                    <input type="checkbox" id="gallery-item-1" hidden>
+                    <div class="image" style="background-image: url(images/gallery/DB11.jpg)">
+                        <div>
+                            <h1>DB11</h1>
+                            <h5>ASTON MARTIN</h5>
+                            <p>차제형식 : 2도어 쿠페 / 굴림방식 : RWD</p>
+                            <p>엔진 : V12 5204 / 변속시 : 8A</p>
+                            <p>출력 : 608/6500 / 토크 : 71.4/1500</p>
+                            <label for="gallery-item-1"><i class="fa fa-search"></i></label>
+                        </div>
+                    </div>
+                    <div class="name">DB11</div>
+                    <label for="gallery-item-1" class="detail">
+                        <div>
+                            <img src="images/gallery/DB11.jpg" alt="gallery-image">
+                            <span class="close">×</span>
+                        </div>
+                    </label>
+                </div>
+                <div class="item col-md-3">
+                    <input type="checkbox" id="gallery-item-1" hidden>
+                    <div class="image" style="background-image: url(images/gallery/Huracan.jpg)">
+                        <div>
+                            <h1>Huracan</h1>
+                            <h5>LAMBORGHINI</h5>
+                            <p>차제형식 : 2도어 쿠페/컨버터블 / 굴림방식 : RWD,AWD</p>
+                            <p>엔진 : V10 5204 / 변속시 : 7DC</p>
+                            <p>출력 : 610/8250 / 토크 : 57.1/6500</p>
+                            <label for="gallery-item-1"><i class="fa fa-search"></i></label>
+                        </div>
+                    </div>
+                    <div class="name">Huracan</div>
+                    <label for="gallery-item-1" class="detail">
+                        <div>
+                            <img src="images/gallery/Huracan.jpg" alt="gallery-image">
+                            <span class="close">×</span>
+                        </div>
+                    </label>
+                </div>
+                <div class="item col-md-3">
+                    <input type="checkbox" id="gallery-item-1" hidden>
+                    <div class="image" style="background-image: url(images/gallery/X6_M50d.jpg)">
+                        <div>
+                            <h1>X6 M50d</h1>
+                            <h5>BMW</h5>
+                            <p>차제형식 : 5도어 SUV / 굴림방식 : AWD</p>
+                            <p>엔진 : I6 2993 / 변속시 : 8A</p>
+                            <p>출력 : 381/4400 / 토크 : 75.5/2000~3000</p>
+                            <label for="gallery-item-1"><i class="fa fa-search"></i></label>
+                        </div>
+                    </div>
+                    <div class="name">X6 M50d</div>
+                    <label for="gallery-item-1" class="detail">
+                        <div>
+                            <img src="images/gallery/X6_M50d.jpg" alt="gallery-image">
+                            <span class="close">×</span>
+                        </div>
+                    </label>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- BIMOS NOTICE -->
+
+    <!-- BANNER BOX -->
+
+    <!-- FOOTER -->
+</body>
+</html>
