@@ -461,8 +461,8 @@ a, a:hover { text-decoration: none; }
 }
 
 @keyframes notice {
-    0%    { top: calc(40px * 5); }  
-    0.5%  { top: calc(40px * 4); }
+    0%    { top: calc(40px * 5); opacity: 0; }  
+    2.5%  { top: calc(40px * 4); opacity: 1; }
     17.5% { top: calc(40px * 4); } 
     22.5% { top: calc(40px * 3); }
     37.5% { top: calc(40px * 3); }
@@ -471,8 +471,8 @@ a, a:hover { text-decoration: none; }
     62.5% { top: calc(40px * 1); }
     77.5% { top: calc(40px * 1); }
     82.5% { top: calc(40px * 0); }
-    97.5% { top: calc(40px * 0); }
-    100%  { top: calc(40px * -1); }
+    97.5% { top: calc(40px * 0); opacity: 1; }
+    100%  { top: calc(40px * -1); opacity: 0; }
 }
 
 
